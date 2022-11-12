@@ -1,0 +1,44 @@
+
+$color-blue:  rgb(15, 15, 129);
+$color-grey: rgba(146, 141, 141, 0.493);
+
+
+
+.img-ig{
+    width: 20px;
+   
+}
+.h2_piezas_n{
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+@media (min-width: 1024px){
+    .h2_piezas_n{
+        font-size: 50px;
+        width: 380px;
+        height: 100px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    .piezas_t{
+        font-size: 20px;
+        
+        
+    }
+    .piezas_p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .piezas_desc{
+        position: absolute;
+        background-color:$color-grey;
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        width: 280px;
+    }
+  
+}

@@ -1,0 +1,22 @@
+@import"componentes";
+@media (max-width: 768px ){
+     /* Piezas oculto mobile*/
+     .piezas_desc{
+        display: none;
+    }
+    .pieza_img1{
+        display: none;
+    }
+    @media (max-width: 1024px ){   
+     /* Piezas*/
+    }
+    .section_piezas{
+        display: grid;
+        grid-template-columns: 3 fr;
+        grid-template-rows: 5 auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 50px;
+        margin-left: 20px;
+    
+    }   
+}
