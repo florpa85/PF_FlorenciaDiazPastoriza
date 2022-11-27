@@ -1,9 +1,12 @@
 @import "componentes";
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 auto;
     font-family: 'IBM Plex Serif', serif;
   
+}
+body{
+    overflow-x: hidden;
 }
 html{
     width: 100vw;
@@ -17,6 +20,9 @@ header{
     background-color: rgba(255, 255, 251, 0.377);
     height: 80px;
 
+}
+.material-symbols-outlined{
+    color: black;
 }
 
      

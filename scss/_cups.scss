@@ -6,9 +6,15 @@
     font-size: 50px;
 }
 .cups_d{
-    font-size: 12px;
+    font-size: 15px;
     width: 250px;
-    margin-top: 5px;
+    margin-top: 15px;
+    
+}
+.cups_b{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 .cup_name{
@@ -28,10 +34,17 @@
         padding-left: 10px;     
     }
     .cups_d{
-        font-size: 14px;
+        font-size: 15px;
         width: 400px;
         padding-left: 10px;
         padding-top: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    .cups_b{
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
     }
     .cup_name{
         position:absolute;

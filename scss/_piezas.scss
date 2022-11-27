@@ -37,13 +37,14 @@
         padding-top: 80px;
         padding-left: 20px;
         padding-bottom: 40px;
-        width: 280px;
+        width: 300px;
+        &:hover{
+            background-color: white;
+        }
         
             .piezas_t{
                 font-size: 20px;
-                &:hover{
-                    color: white;
-                }
+               
         
             }
             .piezas_p{

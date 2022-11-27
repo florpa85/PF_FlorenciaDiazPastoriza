@@ -13,11 +13,10 @@ $color-grey: rgba(146, 141, 141, 0.493);
 
 $padding:20px;
 
-/* hover*/   
-
-.serie_hover{
-    &:hover { color: white;} 
+.nav-link:hover{
+    color: $color-grey !important;
 }
+
 /* mixing*/   
 
 @mixin description {
