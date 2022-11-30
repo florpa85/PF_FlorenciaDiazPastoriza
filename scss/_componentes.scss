@@ -1,28 +1,25 @@
 /* Variables*/   
-
 $color-blue:  rgb(15, 15, 129);
 $color-grey: rgba(146, 141, 141, 0.493);
 
 /* imagen ig*/   
-
 .img-ig{
     width: 20px;
    
 }
-/* operaciones*/   
 
+/* operaciones*/   
 $padding:20px;
 
+/* hover*/ 
 .nav-link:hover{
     color: $color-grey !important;
 }
 
 /* mixing*/   
-
 @mixin description {
     background-color:white; 
     width: 50%;
     top: 0px;
-    justify-content: center;
-    
+    justify-content: center;   
 }

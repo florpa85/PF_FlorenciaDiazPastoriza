@@ -5,42 +5,37 @@
     font-size: 35px;
 }
 
-  
     @media (max-width: 768px ){
             
-       
          /* Series oculto mobile*/
-         .serie_photo_size3{
+        .serie_photo_size3{
             display: none;}
-
     }
     @media (min-width: 768px ){
             
         .h2_series{
             font-size: 40px;
         }
-   } 
+    } 
    @media (min-width: 1024px ){
             
-    .h2_series{
-        font-size: 50px;
-        &:hover{
-            background-color: $color-grey;
-            color: white;
+        .h2_series{
+            font-size: 50px;
+            &:hover{
+                background-color: $color-grey;
+                color: white;
+            }
         }
-    }
-    .serie_photo_size1{
-        &:hover {
-            transform: scale(1.1);
-        } 
+        .serie_photo_size1{
+            &:hover {
+                transform: scale(1.1);
+            } 
+        }
+        .serie_photo_size3{
+            &:hover {
+                transform: scale(1.1);
+            } 
+        }
+    }   
 
-    }
-    .serie_photo_size3{
-        &:hover {
-            transform: scale(1.1);
-        } 
-
-    }
-}   
-
- 
+    
