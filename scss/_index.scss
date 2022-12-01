@@ -17,9 +17,13 @@
     }
     }
     .back{
+        display: flex;
         overflow: hidden;
         margin-top: 15px;
+        align-items: center;
         border-bottom: 2px $color-grey solid;
+        width: 100vw;
+        background-color: rgb(230, 235, 239);
     }
     .sec_grid{
         .novedades_1{
@@ -69,6 +73,10 @@
 
 /* desktop */
 @media (min-width: 1024px ){
+    .back{
+        max-width: 100%;
+        height: auto;
+    }
 
     .div_novedades{
         

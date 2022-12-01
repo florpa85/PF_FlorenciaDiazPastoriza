@@ -231,9 +231,13 @@ header {
     margin-top: -5px; }
 
 .back {
+  display: flex;
   overflow: hidden;
   margin-top: 15px;
-  border-bottom: 2px rgba(146, 141, 141, 0.493) solid; }
+  align-items: center;
+  border-bottom: 2px rgba(146, 141, 141, 0.493) solid;
+  width: 100vw;
+  background-color: #e6ebef; }
 
 .sec_grid .novedades_1 {
   font-size: 12px; }
@@ -268,6 +272,10 @@ header {
     display: none; } }
 /* desktop */
 @media (min-width: 1024px) {
+  .back {
+    max-width: 100%;
+    height: auto; }
+
   .div_novedades {
     margin-top: 300px;
     margin-left: 700px;
